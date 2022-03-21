@@ -96,6 +96,46 @@
      Subscribe to our Monthly news Letter <input type="text"> <input type="button" value="Subscribe">
   </section>
 
+  <!-- contact section -->
+  <!-- contact us -->
+  <section class="text-center mb-5" style="
+        background-image: url('./public/Assets/WALL ART.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* opacity: 0.6; */
+      ">
+    <div class="container " id="contact">
+      <h2 class="p-3 m-3 text-white">CONTACT US</h2>
+      <h4 class="text-light">PLEASE FEEL FREE TO GET IN TOUCH ANYTIME.</h4>
+
+      <form action="https://formspree.io/f/mlezleoe" method="POST" class="form d-flex justify-content-center g-5"
+        id="contactForm" name="contactForm">
+        <div class="m-4">
+          <label for="name"></label>
+          <input type="text" class="bg-transparent text-white mb-3" name="name" placeholder="Name &#42" required />
+
+          <label for="email"></label> <br>
+          <input type="email" class="bg-transparent text-white mb-3" name="email" id="email" placeholder="Email &#42"
+            required />
+          <label for="subject"></label> <br>
+          <input type="subject" class="bg-transparent text-white mb-3" name="subject" id="subject" placeholder="Subject &#42"
+            required />
+        </div>
+
+        <div>
+          <label for="message"></label>
+          <textarea rows="10" cols="50" class="bg-transparent text-white container" id="comment" name="message"
+            placeholder="Message &#42"></textarea>
+          <br />
+          <input type="submit" value="Send Message" id="submitBtn" class="btn btn-warning m-3 text-light" />
+        </div>
+
+      </form>
+    </div>
+  </section>
+
       <!-- Footer -->
   <footer class="footer p-2 bg-secondary text-center text-white position-relative">
     <div class="container-fluid d-flex justify-content-between flex-wrap">
