@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,6 +13,7 @@
   <link rel="stylesheet" href="public/css/style.css" />
   <title>Talent Africa</title>
 </head>
+
 <body>
   <!-- Navbar -->
   <!-- navbar class, lg-large with a dark bg and light color for text -->
@@ -46,59 +48,67 @@
 
   <!-- section one with slogan and map -->
   <section class="container">
-      <div class="row">
-          <div class="col-md-5">
-              <p class="lead mt-5 text-light"> AFRICAN TALENTS ARE A THING OF BEAUTY,
-                WE ARE ALWAYS AMAZED OF WHAT OUR 
-                PEOPLE CAN DO.
-                BUT WHY ARE THE NOT ON THE GLOBAL MAP?
-                <br>
-                <br>
-                TALENT AFRICA IS HER TO CHANGE THAT!</p>
-
-          </div>
-          <div class="col-md-2 mt-3">
-            <p class="lead mt-5"> Where Africa <br>
-            Builds Africa</p>
-          </div>
-          <div class="col-md-5">
-              <img src="public/Assets/AFRICA_PAINTING-removebg-preview.png" alt="" class="img-fluid">
-          </div>
+    <div class="row">
+      <div class="col-md-5">
+        <p class="lead mt-5 text-light text-center"> AFRICAN TALENTS ARE A THING OF BEAUTY,
+          WE ARE ALWAYS AMAZED OF WHAT OUR
+          PEOPLE CAN DO.
+          BUT WHY ARE THE NOT ON THE GLOBAL MAP?
+          <br>
+          <br>
+          TALENT AFRICA IS HER TO CHANGE THAT!</p>
       </div>
+
+      <div class="col-md-2 mt-3">
+        <p class="lead mt-5 text-center"> Where Africa <br>
+          Builds Africa</p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="public/Assets/AFRICA_PAINTING-removebg-preview.png" alt="" class="img-fluid">
+      </div>
+    </div>
   </section>
 
   <!-- services section -->
-  <section class="container-fluid" style="
-  background-image: url('./public/Assets/Africa1.jpg'); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;">
-<h2 class="text-center text-white p-4"> Services</h2>
-<div class="row ">
-    <div class="col-md-5 text-center p-4">
+  <section class="container bg-light" style="
+    /* background-image: url('./public/Assets/PAINTING BG.jpg');  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;">
+    <h2 class="text-center text-dark p-3"> Services <br>
+      <em class="h5">We bring to you the best painters, <br> wood curvers and sculptures from
+        all corners of Africa.
+      </em> </h2>
+    <div class="row container-fluid">
+      <div class="col-md-6 text-center container ">
         <img src="./public/Assets/PAINTING.jpg" alt="" class="img-fluid">
-    </div>
-    <div class="col-md-5 p-4">
+        <input type="button" value="More Paintings" class="btn btn-primary m-2">
+      </div>
+      <div class="col-md-6 text-center">
         <img src="./public/Assets/SCULPTURE.jpg" alt="" class="img-fluid">
+        <input type="button" value="More Sculptures" class="btn btn-primary mt-2">
+      </div>
     </div>
-</div>
-<div class="row text-center m-4 p-5">
-    <div class="col-md-12">
-        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid">
+    <div class="row text-center">
+      <div class="col-md-10 p-3">
+        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid"> <br>
+        <input type="button" value="More Curvings" class="btn btn-primary mt-2">
+      </div>
     </div>
-
-</div>
   </section>
 
   <!-- subscribe section -->
-  <section class="container text-center m-5 text-light">
-     Subscribe to our Monthly news Letter <input type="text" placeholder="Email "> <input type="button" value="Subscribe">
+  <section class="container bg-dark p-1 mt-3">
+    <div class="m-5 text-light d-flex flex-wrap justify-content-center">
+      <p class="text-center">Subscribe to our Monthly news Letter</p> <input type="text" placeholder="Email "
+        class="ms-3"> <input type="button" value="Subscribe" class="btn btn-primary">
+    </div>
   </section>
 
   <!-- contact section -->
   <!-- contact us -->
-  <section class="text-center mb-5" style="
+  <section class="text-center mb-5 " style="
         background-image: url('./public/Assets/WALL ART.jpg');
         background-position: center;
         background-repeat: no-repeat;
@@ -106,12 +116,12 @@
         position: relative;
         /* opacity: 0.6; */
       ">
-    <div class="container " id="contact">
-      <h2 class="p-3 m-3 text-white">CONTACT US</h2>
+    <div class="container bg-dark" style="opacity: 0.5;" id="contact">
+      <h2 class="p-3 m-3 text-light">CONTACT US</h2>
       <h4 class="text-light">PLEASE FEEL FREE TO GET IN TOUCH ANYTIME.</h4>
 
-      <form action="https://formspree.io/f/mlezleoe" method="POST" class="form d-flex justify-content-center g-5"
-        id="contactForm" name="contactForm">
+      <form action="https://formspree.io/f/mlezleoe" method="POST"
+        class="form d-flex flex-wrap justify-content-center g-5" id="contactForm" name="contactForm">
         <div class="m-4">
           <label for="name"></label>
           <input type="text" class="bg-transparent text-white mb-3" name="name" placeholder="Name &#42" required />
@@ -120,8 +130,8 @@
           <input type="email" class="bg-transparent text-white mb-3" name="email" id="email" placeholder="Email &#42"
             required />
           <label for="subject"></label> <br>
-          <input type="subject" class="bg-transparent text-white mb-3" name="subject" id="subject" placeholder="Subject &#42"
-            required />
+          <input type="subject" class="bg-transparent text-white mb-3" name="subject" id="subject"
+            placeholder="Subject &#42" required />
         </div>
 
         <div>
@@ -129,7 +139,7 @@
           <textarea rows="10" cols="50" class="bg-transparent text-white container" id="comment" name="message"
             placeholder="Message &#42"></textarea>
           <br />
-          <input type="submit" value="Send Message" id="submitBtn" class="btn btn-secondary m-3 text-light" />
+          <input type="submit" value="Send Message" id="submitBtn" class="btn btn-primary m-3 text-light" />
         </div>
       </form>
     </div>
@@ -144,11 +154,11 @@
     <a href="#"><i class="bi bi-linkedin text-primary h1 mx-1"></i></a>
   </section>
 
-      <!-- Footer -->
+  <!-- Footer -->
   <footer class="footer p-2 bg-secondary text-center text-white position-relative">
     <div class="container-fluid d-flex justify-content-between flex-wrap">
       <p class="lead">All Rights Reserved &copy; 2022</p>
-      <p class="lead me-5">Designed & Developed by Talent Africa co.</p>
+      <p class="lead me-3">Designed & Developed by Talent Africa co.</p>
       <a href="#" class="position-absolute bottom-0 end-0">
         <i class="bi bi-arrow-up-circle h2 m-2 text-dark"></i>
       </a>
@@ -170,6 +180,7 @@
 </body>
 
 </html>
-  
-  </body>
+
+</body>
+
 </html>
