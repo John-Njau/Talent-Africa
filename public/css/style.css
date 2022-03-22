@@ -1,0 +1,24 @@
+body{
+    background-color:#692111 ;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+input, textarea{
+    border: 2px solid #fff;
+}
+
+nav, footer{
+    background-color: #CFCDD7!important;
+}
+
+.nav-link{
+    color: #000!important;
+}
+
+.nav-link:hover{
+    color: #692111!important;
+    font-size: 1.2rem;
+}

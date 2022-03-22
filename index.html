@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="public/css/style.css" />
   <title>Talent Africa</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
   <!-- navbar class, lg-large with a dark bg and light color for text -->
   <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
     <div class="container-fluid">
-      <a href="#slideImages" class="navbar-brand">Talent <br />
+      <a href="#slideImages" class="navbar-brand text-dark">Talent <br />
         Africa</a>
       <!-- Adding a hamburger menu -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -26,14 +26,13 @@
       <!--This will show the three side lines on the side in a smaller screen  -->
       <div class="collapse navbar-collapse " id="navmenu">
         <!-- nav bar navigation class -->
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
             <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
             <a href="#menu" class="nav-link">Contact</a>
           </li>
-          
           <li class="nav-item">
             <a href="" class="nav-link">Book</a>
           </li>
@@ -44,6 +43,106 @@
       </div>
     </div>
   </nav>
+
+  <!-- section one with slogan and map -->
+  <section class="container">
+      <div class="row">
+          <div class="col-md-5">
+              <p class="lead mt-5 text-light"> AFRICAN TALENTS ARE A THING OF BEAUTY,
+                WE ARE ALWAYS AMAZED OF WHAT OUR 
+                PEOPLE CAN DO.
+                BUT WHY ARE THE NOT ON THE GLOBAL MAP?
+                <br>
+                <br>
+                TALENT AFRICA IS HER TO CHANGE THAT!</p>
+
+          </div>
+          <div class="col-md-2 mt-3">
+            <p class="lead mt-5"> Where Africa <br>
+            Builds Africa</p>
+          </div>
+          <div class="col-md-5">
+              <img src="public/Assets/AFRICA_PAINTING-removebg-preview.png" alt="" class="img-fluid">
+          </div>
+      </div>
+  </section>
+
+  <!-- services section -->
+  <section class="container-fluid" style="
+  background-image: url('./public/Assets/Africa1.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;">
+<h2 class="text-center text-white p-4"> Services</h2>
+<div class="row ">
+    <div class="col-md-5 text-center p-4">
+        <img src="./public/Assets/PAINTING.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="col-md-5 p-4">
+        <img src="./public/Assets/SCULPTURE.jpg" alt="" class="img-fluid">
+    </div>
+</div>
+<div class="row text-center m-4 p-5">
+    <div class="col-md-12">
+        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid">
+    </div>
+
+</div>
+  </section>
+
+  <!-- subscribe section -->
+  <section class="container text-center m-5 text-light">
+     Subscribe to our Monthly news Letter <input type="text" placeholder="Email "> <input type="button" value="Subscribe">
+  </section>
+
+  <!-- contact section -->
+  <!-- contact us -->
+  <section class="text-center mb-5" style="
+        background-image: url('./public/Assets/WALL ART.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* opacity: 0.6; */
+      ">
+    <div class="container " id="contact">
+      <h2 class="p-3 m-3 text-white">CONTACT US</h2>
+      <h4 class="text-light">PLEASE FEEL FREE TO GET IN TOUCH ANYTIME.</h4>
+
+      <form action="https://formspree.io/f/mlezleoe" method="POST" class="form d-flex justify-content-center g-5"
+        id="contactForm" name="contactForm">
+        <div class="m-4">
+          <label for="name"></label>
+          <input type="text" class="bg-transparent text-white mb-3" name="name" placeholder="Name &#42" required />
+
+          <label for="email"></label> <br>
+          <input type="email" class="bg-transparent text-white mb-3" name="email" id="email" placeholder="Email &#42"
+            required />
+          <label for="subject"></label> <br>
+          <input type="subject" class="bg-transparent text-white mb-3" name="subject" id="subject" placeholder="Subject &#42"
+            required />
+        </div>
+
+        <div>
+          <label for="message"></label>
+          <textarea rows="10" cols="50" class="bg-transparent text-white container" id="comment" name="message"
+            placeholder="Message &#42"></textarea>
+          <br />
+          <input type="submit" value="Send Message" id="submitBtn" class="btn btn-secondary m-3 text-light" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- social media section -->
+  <section class="container text-center pb-3 ">
+    <h3 class="text-light mt-4">Our Social Media Accounts</h3>
+    <a href="#"><i class="bi bi-twitter text-primary h1 mx-1"></i></a>
+    <a href="#"><i class="bi bi-facebook text-primary h1 mx-1"></i></a>
+    <a href="#"><i class="bi bi-instagram text-danger h1 mx-1"></i></a>
+    <a href="#"><i class="bi bi-linkedin text-primary h1 mx-1"></i></a>
+  </section>
 
       <!-- Footer -->
   <footer class="footer p-2 bg-secondary text-center text-white position-relative">
