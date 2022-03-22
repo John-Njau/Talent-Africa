@@ -1,5 +1,5 @@
 body{
-    background-color: brown;
+    background-color: #692111; 
     margin: 0;
     padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -7,7 +7,6 @@ body{
 }
 .signup-box{
     width: 360px;
-    /* height: 620px; */
     margin: auto;
     border-radius: 3px;
     /* background-color: white; */
@@ -63,9 +62,4 @@ p{
 }
 .container{
     background-color: rgb(217, 217, 240);
-    /* margin-right: 80%;
-    margin-left: 10%;
-    padding: 16px; */
-    /* margin-top: 10%; */
-    /* /* margin-bottom: 10%;} */
 }
