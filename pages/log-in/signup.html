@@ -23,18 +23,18 @@
               <h4>Its free and only takes a minute</h4>
               <form>
                 <label>First Name</label>
-                <input type="text" placeholder="eg.John" />
+                <input type="text" placeholder="eg.John" required/>
                 <label>Last Name</label>
                 <input type="text" placeholder="eg.Doe" />
                 <label>Phone Number</label>
                 <input type="text" placeholder="" />
                 <label>Email</label>
-                <input type="email" placeholder="youremail@gmail.com" />
+                <input type="email" placeholder="youremail@gmail.com" required/>
                 <label>Password</label>
                 <input type="password" placeholder="" />
                 <label>Confirm Password</label>
                 <input type="password" placeholder="" />
-                <input type="button" value="submit" />
+                <input type="button" value="submit" id="btn"/>
               </form>
               <p>
                 By clicking the Sign Up button, you agree to our <br />
@@ -58,5 +58,8 @@
         </div>
       </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" 
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="pages/log-in/login.js"> </script>
   </body>
 </html>
