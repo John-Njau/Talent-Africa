@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="public/css/style.css" />
+  <title>Talent Africa</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <!-- navbar class, lg-large with a dark bg and light color for text -->
+  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+    <div class="container-fluid">
+      <a href="#slideImages" class="navbar-brand text-dark">Talent <br />
+        Africa</a>
+      <!-- Adding a hamburger menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--This will show the three side lines on the side in a smaller screen  -->
+      <div class="collapse navbar-collapse " id="navmenu">
+        <!-- nav bar navigation class -->
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a href="#services" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/booking/booking.html" class="nav-link">Book</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pages/log-in/login.html" class="nav-link">LogIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- section one with slogan and map -->
+  <section class="container">
+    <div class="row" id="slogan">
+      <div class="col-md-5">
+        <p class="lead mt-5 text-light text-center"> AFRICAN TALENTS ARE A THING OF BEAUTY,
+          WE ARE ALWAYS AMAZED OF WHAT OUR
+          PEOPLE CAN DO.
+          BUT WHY ARE THE NOT ON THE GLOBAL MAP?
+          <br>
+          <br>
+          TALENT AFRICA IS HER TO CHANGE THAT!</p>
+      </div>
+
+      <div class="col-md-2 mt-3">
+        <p class="lead mt-5 text-center"> Where Africa <br>
+          Builds Africa</p>
+      </div>
+      <div class="col-md-5 text-center">
+        <img src="public/Assets/AFRICA_PAINTING-removebg-preview.png" alt="" class="img-fluid">
+      </div>
+    </div>
+  </section>
+
+  <!-- services section -->
+  <section id="services" class="container-fluid bg-light" style="
+    /* background-image: url('./public/Assets/PAINTING BG.jpg');  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;">
+    <h2 class="text-center text-dark p-3"> Services <br>
+      <em class="h5">We bring to you the best painters, <br> wood curvers and sculptures from
+        all corners of Africa.
+      </em> </h2>
+    <div class="row container">
+      <div class="col-md text-center box m-3">
+        <img src="./public/Assets/PAINTING.jpg" alt="" class="img-fluid">
+        <div class="content">
+        <p class="p-2">
+          Different Paintings sourced from the best uknown/ little known painters in 
+          the rural settings. These painters will deliver your work to your specification.
+        </p>
+      </div>
+      <input id="paintingsBtn" type="button" value="More Paintings" class="btn btn m-2">
+      </div>
+      <div class="col-md-6 text-center box m-3">
+        <img src="./public/Assets/SCULPTURE.jpg" alt="" class="img-fluid">
+        <p class="content p-5">
+          Different Paintings sourced from the best uknown/ little known painters in 
+          the rural settings. These painters will deliver your work to your specification. <br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, non.
+        </p> <br>
+        <input type="button" value="More Sculptures" class="btn btn-primary mt-2">
+      </div>
+    </div>
+    <div class="row text-center" >
+      <div class="col-md-10 box" >
+        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid">
+        <div class="content">
+        <p>
+          Different Paintings sourced from the best uknown/ little known painters in 
+          the rural settings. These painters will deliver your work to your specification.
+        </p> <br>
+    
+        <input type="button" value="More Curvings" class="btn btn-primary mt-2">
+      
+    </div>
+  </section>
+
+  <!-- subscribe section -->
+  <section class="container-fluid bg-dark p-1 mt-3">
+    <div class="m-5 text-light d-flex flex-wrap justify-content-center">
+      <p class="text-center">Subscribe to our Monthly news Letter</p> <input type="text" placeholder="Email "
+        class="ms-3"> <input type="button" value="Subscribe" class="btn btn-primary">
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <!-- contact us -->
+  <section class="text-center mb-5 " style="
+        background-image: url('./public/Assets/WALL ART.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* opacity: 0.6; */
+      ">
+    <div class="container bg-dark" id="contact">
+      <h2 class="p-3 m-3 text-light">CONTACT US</h2>
+      <h4 class="text-light">PLEASE FEEL FREE TO GET IN TOUCH ANYTIME.</h4>
+
+      <form action="https://formspree.io/f/mlezleoe" method="POST"
+        class="form d-flex flex-wrap justify-content-center g-5" id="contactForm" name="contactForm">
+        <div class="m-4">
+          <label for="name"></label>
+          <input type="text" class="bg-transparent text-white mb-3" name="name" placeholder="Name &#42" required />
+
+          <label for="email"></label> <br>
+          <input type="email" class="bg-transparent text-white mb-3" name="email" id="email" placeholder="Email &#42"
+            required />
+          <label for="subject"></label> <br>
+          <input type="subject" class="bg-transparent text-white mb-3" name="subject" id="subject"
+            placeholder="Subject &#42" required />
+        </div>
+
+        <div>
+          <label for="message"></label>
+          <textarea rows="10" cols="50" class="bg-transparent text-white container" id="comment" name="message"
+            placeholder="Message &#42"></textarea>
+          <br />
+          <input type="submit" value="Send Message" id="submitBtn" class="btn btn-primary m-3 text-light" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- social media section -->
+  <section class="container text-center pb-3 ">
+    <h3 class="text-light mt-4">Our Social Media Accounts</h3>
+    <a href="#"><i class="bi bi-twitter text-primary h1 mx-1"></i></a>
+    <a href="#"><i class="bi bi-facebook text-primary h1 mx-1"></i></a>
+    <a href="#"><i class="bi bi-instagram text-danger h1 mx-1"></i></a>
+    <a href="#"><i class="bi bi-linkedin text-primary h1 mx-1"></i></a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer p-2 bg-secondary text-center text-white position-relative">
+    <div class="container-fluid d-flex justify-content-between flex-wrap">
+      <p class="lead">All Rights Reserved &copy; 2022</p>
+      <p class="lead me-3">Designed & Developed by Talent Africa co.</p>
+      <a href="#" class="position-absolute bottom-0 end-0">
+        <i class="bi bi-arrow-up-circle h2 m-2 text-dark"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>
