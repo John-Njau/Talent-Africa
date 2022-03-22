@@ -5,7 +5,7 @@ body{
     font-family: sans-serif;
 }
 .container{
-  width:800px;
+  width:900px;
   margin: 50px auto 0;
   display: table;
   box-sizing: border-box;
@@ -47,4 +47,24 @@ h2{
 .row:nth-child(2) .column:nth-child(2){
   background: #596270;
 
+}
+@media (max-width:900px) {
+  .container{
+    margin: 0;
+    padding:10px;
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    border: none;
+    box-sizing: border-box;
+  }
+  .row{
+    margin: 0;
+  }
+}
+.column:hover {
+  background-color: #692111;
 }
