@@ -1,0 +1,75 @@
+
+body{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+.signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+    /* background-color: white; */
+}
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px
+    background-color: ;
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+img1{
+    width: 400px;
+    height: 400px;
+    float: right;
+
+}
+.container{
+    background-color: rgb(217, 217, 240);
+    margin-right: 70%;
+    margin-left: 10%;
+    padding: 16px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
