@@ -15,7 +15,7 @@ hr{
     border-radius: 1%;
     
 }
-/* .col-md-4{
+ .col-md-4{
    
     width: 33%;
     float: left;
@@ -26,7 +26,7 @@ hr{
     width: 50%;
     padding: 3rem;
 } 
-.card{
+/*.card{
     box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
   text-align: center;
 }
