@@ -30,7 +30,7 @@ hr{
     box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
   text-align: center;
 }
-/* #ouma1{
+ #ouma1{
     margin: auto;
     height: 500px;
     
@@ -91,7 +91,7 @@ hr{
     margin: auto;
     height: 500px; 
 }
-.artist-image{
+/*.artist-image{
     border-radius: 50%;
 }
 .col-6{
