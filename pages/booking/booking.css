@@ -1,0 +1,25 @@
+.firstName{
+    font-size: 25px;
+    height: 45px;
+    background-color: #A83A22;
+}
+.form-group{
+    background-color: #C4C4C4;
+}
+.pics{
+    width: 95%;
+    height: 250px;
+    /* border-radius: ; */
+    background-image: url("../booking/92e260ceae2c10a026024d4b2d6da837.jpg");
+    background-size: cover;
+    background-position: center;
+}
+body{
+    /* background-color: #692111; */
+    background-image: url("../booking/wallp.webp");
+    background-size: cover;
+    background-position: center;
+}
+.formHeight{
+    height: 300px;
+}
