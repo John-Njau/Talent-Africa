@@ -1,4 +1,4 @@
- body{
+body{
     background-color: #692111;
     text-align: center;
     
@@ -93,11 +93,49 @@ hr{
 }
 .artist-image{
     border-radius: 50%;
+
 }
  .col-6{
     float: left;
-    padding-bottom: 30px;
+}
+.row1{
+    padding: 4rem;
+    color: rgb(217, 217, 240);
+}
+.row2{
+    padding: 4rem;
+}
+.row3{
+    padding: 4rem;
 }
 .row4{
-    padding: 30px;
+    padding: 4rem;
+}
+
+.row5{
+    padding: 4rem;
+}
+.row6{
+    padding: 4rem;
+}
+.row7{
+    padding: 4rem;
 } 
+.col-6 h3{
+    color: rgb(217, 217, 240);
+}
+.col-6 h2{
+    color: rgb(217, 217, 240);
+}
+.buttons{
+   
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
