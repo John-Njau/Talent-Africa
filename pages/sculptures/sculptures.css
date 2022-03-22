@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap'); 
 :root{
     --color: #e40046
@@ -14,11 +14,58 @@
 body{
     background: #a02222;
     overflow-x: hidden;
-    padding-top: 100px;
-    font-family: "poppins", sans-serif;
-    margin: 0 100px;
+    /* padding-top: 100px; */
+    /* font-family: "poppins", sans-serif; */
+    /* margin: 0 100px; */
+/* } */
+/* .column{
+    width: 25px;
+    float: left;
+    padding: 0px 10px;
 }
-.profile-header{
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+@media screen and(max-width:600px) {
+    .column{
+        width:100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+    max-width: 300px;
+    margin:auto;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 40p;
+    padding-bottom: 15px;
+}
+.title{
+    color: gray;
+    font-size: 18px;
+}
+button{
+    border: none;
+    padding: 8px;
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:hover,button:hover{
+    opacity: 0.6;
+} */
+/* .profile-header{
     background: #fff;
     width: 100%;
     display: flex;
@@ -33,8 +80,8 @@ body{
 }
 .profile-img img{
     border-radius: 50%;
-    height: 230px;
-    width: 230px;
+    height: 150px;
+    width: 0px;
     border: 4px solid #fff;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
     position: absolute;
@@ -293,5 +340,73 @@ user-rating .no-users{
             height: 15px;
             width: 15px;font-size: .7rem;
         }
-    }
+    } */
+/* } */ 
+
+/* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
 } */
+
+body{
+    background: rgb(97, 25, 25);
+}
+.arrow-bounce{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: #fff;
+    width: 250px;
+    /* height: 400px; */
+    margin: 10px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-image{
+    height: 120px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.image-1{
+    background-image: url('images/im1.jpg');
+}
+
+.image-2{
+    background-image: url('images/im2.jpg');
+}
+
+.image-3{
+    background-image: url('images/im3.jpg');
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: blue;
+    color: aqua;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover{
+    background-color: rgb(97, 25, 25);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

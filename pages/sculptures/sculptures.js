@@ -26,3 +26,9 @@ function bioText(){
     bio.innerHTML += "&nbsp;" + <span onclick='addLength' id='see-more-bio'>See More</span>
 }
 bioText();
+
+function addLength(){
+    bio.innerHTML = bio.oldText;
+    io.innerHTML += "&nbsp;" + <span onclick='bioText' id='see-less-bio'>See Less</span>
+
+}
