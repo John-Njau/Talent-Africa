@@ -30,16 +30,16 @@
         <!-- nav bar navigation class -->
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#menu" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Book</a>
+            <a href="./pages/booking/booking.html" class="nav-link">Book</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">LogIn</a>
+            <a href="./pages/log-in/login.html" class="nav-link">LogIn</a>
           </li>
         </ul>
       </div>
@@ -48,7 +48,7 @@
 
   <!-- section one with slogan and map -->
   <section class="container">
-    <div class="row">
+    <div class="row" id="slogan">
       <div class="col-md-5">
         <p class="lead mt-5 text-light text-center"> AFRICAN TALENTS ARE A THING OF BEAUTY,
           WE ARE ALWAYS AMAZED OF WHAT OUR
@@ -70,7 +70,7 @@
   </section>
 
   <!-- services section -->
-  <section class="container bg-light" style="
+  <section id="services" class="container-fluid bg-light" style="
     /* background-image: url('./public/Assets/PAINTING BG.jpg');  */
     background-position: center;
     background-repeat: no-repeat;
@@ -80,26 +80,43 @@
       <em class="h5">We bring to you the best painters, <br> wood curvers and sculptures from
         all corners of Africa.
       </em> </h2>
-    <div class="row container-fluid">
-      <div class="col-md-6 text-center container ">
+    <div class="row container">
+      <div class="col-md text-center box m-3">
         <img src="./public/Assets/PAINTING.jpg" alt="" class="img-fluid">
-        <input type="button" value="More Paintings" class="btn btn-primary m-2">
+        <div class="content">
+        <p class="p-2">
+          Different Paintings sourced from the best uknown/ little known painters in 
+          the rural settings. These painters will deliver your work to your specification.
+        </p>
       </div>
-      <div class="col-md-6 text-center">
+      <input id="paintingsBtn" type="button" value="More Paintings" class="btn btn m-2">
+      </div>
+      <div class="col-md-6 text-center box m-3">
         <img src="./public/Assets/SCULPTURE.jpg" alt="" class="img-fluid">
+        <p class="content p-5">
+          Different Paintings sourced from the best uknown/ little known painters in 
+          the rural settings. These painters will deliver your work to your specification. <br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, non.
+        </p> <br>
         <input type="button" value="More Sculptures" class="btn btn-primary mt-2">
       </div>
     </div>
-    <div class="row text-center">
-      <div class="col-md-10 p-3">
-        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid"> <br>
+    <div class="row text-center" >
+      <div class="col-md-10 box" >
+        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid">
+        <div class="content">
+        <p>
+          Different Paintings sourced from the best uknown/ little known painters in 
+          the rural settings. These painters will deliver your work to your specification.
+        </p> <br>
+    
         <input type="button" value="More Curvings" class="btn btn-primary mt-2">
-      </div>
+      
     </div>
   </section>
 
   <!-- subscribe section -->
-  <section class="container bg-dark p-1 mt-3">
+  <section class="container-fluid bg-dark p-1 mt-3">
     <div class="m-5 text-light d-flex flex-wrap justify-content-center">
       <p class="text-center">Subscribe to our Monthly news Letter</p> <input type="text" placeholder="Email "
         class="ms-3"> <input type="button" value="Subscribe" class="btn btn-primary">
@@ -116,7 +133,7 @@
         position: relative;
         /* opacity: 0.6; */
       ">
-    <div class="container bg-dark" style="opacity: 0.5;" id="contact">
+    <div class="container bg-dark" id="contact">
       <h2 class="p-3 m-3 text-light">CONTACT US</h2>
       <h4 class="text-light">PLEASE FEEL FREE TO GET IN TOUCH ANYTIME.</h4>
 
