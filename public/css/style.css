@@ -1,0 +1,80 @@
+body{
+    background-color:#692111 ;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+input, textarea{
+    border: 2px solid #fff;
+}
+
+nav, footer{
+    background-color: #CFCDD7!important;
+}
+
+.nav-link, footer{
+    color: #000!important;
+}
+
+.nav-link:hover{
+    color: #692111!important;
+    font-size: 1.2rem;
+}
+
+.box{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.box .content{
+    position: absolute;
+    top: -100%;
+    text-align: center;
+    background: #fff;
+    opacity: 0.4;
+
+}
+
+.box:hover .content{
+    /* position: absolute; */
+    top: 0%;
+    height: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.box:hover .content p{
+    top: 50%;
+}
+#contact{
+    opacity:calc(1 * 0.5)
+}
+#contact> h2,h4{
+    opacity:1;
+    color: #fff;
+    /* font-size: larger; */
+}
+
+#paintingsBtn{
+    background-color: #692111;
+    color: #fff;
+}
+
+@media only screen and (min-width:768px) {
+    /* body{ */
+        /* background-color: yellow; */
+    /* } */
+    #services{
+        margin: auto;
+        text-align: start;
+    }
+
+    #slogan{
+        text-align: start;
+    }
+}

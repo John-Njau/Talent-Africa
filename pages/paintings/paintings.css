@@ -1,0 +1,103 @@
+ body{
+    background-color: #692111;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+}
+hr{
+    color: grey;
+}
+.card-img-top{
+    width: 255px;
+    height: 336px;
+    border-radius: 1%;
+    
+}
+ .col-md-4{
+   
+    width: 33%;
+    float: left;
+    justify-items: center;
+}
+.col-md-6{
+    float: left;
+    width: 50%;
+    padding: 3rem;
+} 
+.card{
+    box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
+  text-align: center;
+}
+ #ouma1{
+    margin: auto;
+    height: 500px;
+    
+}
+#ouma2{
+    margin: auto;
+    height: 500px;
+}
+#ouma3{
+    margin: auto;
+    height: 500px;
+}
+#ngugi1{
+    margin: auto;
+    height: 500px;
+}
+#ngugi2{
+    margin: auto;
+    height: 500px;
+}
+#ngugi3{
+    margin: auto;
+    height: 500px;
+}
+#macharia1{
+    margin: auto;
+    height: 500px;
+}
+#macharia2{
+    margin: auto;
+    height: 500px;
+}
+#macharia3{
+    margin: auto;
+    height: 500px;
+}
+#lucy1{
+    margin: auto;
+    height: 500px;
+}
+#lucy2{
+    margin: auto;
+    height: 500px;
+}
+#lucy3{
+    margin: auto;
+    height: 500px;
+}
+#anita1{
+    margin: auto;
+    height: 500px; 
+}
+#anita2{
+    margin: auto;
+    height: 500px; 
+}
+#anita3{
+    margin: auto;
+    height: 500px; 
+}
+.artist-image{
+    border-radius: 50%;
+}
+ .col-6{
+    float: left;
+    padding-bottom: 30px;
+}
+.row4{
+    padding: 30px;
+} 
