@@ -2,15 +2,21 @@
     font-size: 25px;
     height: 45px;
     background-color: #A83A22;
+    color: white;
 }
 .form-group{
     background-color: #C4C4C4;
+}
+.homePage{
+    background-color: #A83A22;
+    color: white;
+    font-size: 30px;
 }
 .pics{
     width: 95%;
     height: 250px;
     /* border-radius: ; */
-    background-image: url("../booking/92e260ceae2c10a026024d4b2d6da837.jpg");
+    background-image: url("../booking/wallpaper.webp");
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +25,11 @@ body{
     background-image: url("../booking/wallp.webp");
     background-size: cover;
     background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .formHeight{
     height: 300px;
+}
+ol{
+    font-size: 25px;
 }
