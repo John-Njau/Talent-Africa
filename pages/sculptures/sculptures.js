@@ -1,57 +1,46 @@
-$(document).ready(function(){
-$("sudi").click(function(){
-    alert("yes");
-    $("sudi").hide();
-    $("husda").hide();
-    $("tunu").hide();
-    $("babu").hide();
-    $("ngurumo").hide();
-    $("sudi-bio").show();
-})
-});
-$(document).ready(function(){
-$("husda").click(function(){
-    alert("yes");
-    $("sudi").hide();
-    $("husda").hide();
-    $("tunu").hide();
-    $("babu").hide();
-    $("ngurumo").hide();
-    $("husda-bio").show();
-})
-});
-$(document).ready(function(){
-$("tunu").click(function(){
-    alert("yes");
-    $("sudi").hide();
-    $("husda").hide();
-    $("tunu").hide();
-    $("babu").hide();
-    $("ngurumo").hide();
-    $("tunu-bio").show();
+$(document).ready(function () {
+    $("#more-sudi").click(function () {
+        $("#sudi-slider").show();
+        $("#sudi").hide();
+        $("#husda").hide();
+        $("#tunu").hide();
+        $("#babu").hide();
+        $("#ngurumo").hide();
     })
-    });
-$(document).ready(function(){
-$("babu").click(function(){
-    alert("yes");
-    $("sudi").hide();
-    $("husda").hide();
-    $("tunu").hide();
-    $("babu").hide();
-    $("ngurumo").hide();
-    $("babu-bio").show();
-})
-});
-$(document).ready(function(){
-$("ngurumo").click(function(){
-    alert("yes");
-    $("sudi").hide();
-    $("husda").hide();
-    $("tunu").hide();
-    $("babu").hide();
-    $("ngurumo").hide();
-    $("ngurumo-bio").show();
-})
+
+    $("#more-husda").click(function () {
+        $("#husda-slider").show();
+        $("#sudi").hide();
+        $("#husda").hide();
+        $("#tunu").hide();
+        $("#babu").hide();
+        $("#ngurumo").hide();
+    })
+
+    $("#more-tunu").click(function () {
+        $("#tunu-slider").show();
+        $("#sudi").hide();
+        $("#husda").hide();
+        $("#tunu").hide();
+        $("#babu").hide();
+        $("#ngurumo").hide();
+    })
+    $("#more-babu").click(function () {
+        $("#babu-slider").show();
+        $("#sudi").hide();
+        $("#husda").hide();
+        $("#tunu").hide();
+        $("#babu").hide();
+        $("#ngurumo").hide();
+    })
+    $("#more-ngurumo").click(function () {
+        $("#sudi-slider").show();
+        $("sudi").hide();
+        $("#husda").hide();
+        $("#tunu").hide();
+        $("#babu").hide();
+        $("#ngurumo").hide();
+    })
 });
 
 

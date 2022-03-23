@@ -1,61 +1,50 @@
 // User Interface Logic
-$(document).ready(function(){
-    $("#ouma").click(function(){
+$(document).ready(function () {
+    $("#more-ouma").click(function () {
+        $("#ouma-slider").show();
+        $("#ouma").hide();
+        $("#ngugi").hide();
+        $("#wamboi").hide();
+        $("#anita").hide();
+        $("#macharia").hide();
+    })
+
+    $("#more-ngugi").click(function () {
+        $("#ngugi-slider").show();
         $("#ouma").hide();
         $("#macharia").hide();
         $("#ngugi").hide();
         $("#wamboi").hide();
         $("#anita").hide();
-        $("#ouma-bio").show();
-        $("#book-ouma").show();
-    
     })
-    });
-    
-    $(document).ready(function(){
-       $("#macharia").click(function(){
-            $("#ouma").hide();
-            $("#macharia").hide();
-            $("#ngugi").hide();
-            $("#wamboi").hide();
-            $("#anita").hide();
-            $("#macharia-bio").show();
-    
-       })
-    });
-    $(document).ready(function(){
-        $("#ngugi").click(function(){
-            $("#ouma").hide();
-            $("#macharia").hide();
-            $("#ngugi").hide();
-            $("#wamboi").hide();
-            $("#anita").hide();
-            $("#ngugi-bio").show();
+
+    $("#more-macharia").click(function () {
+        $("#luka-slider").show();
+        $("#ouma").hide();
+        $("#macharia").hide();
+        $("#ngugi").hide();
+        $("#wamboi").hide();
+        $("#anita").hide();
+    })
+
+    $("#more-wamboi").click(function () {
+        $("#lucy-slider").show();
+        $("#ouma").hide();
+        $("#macharia").hide();
+        $("#ngugi").hide();
+        $("#wamboi").hide();
+        $("#anita").hide();
         
+
     })
-    });
-    $(document).ready(function(){
-        $("#wamboi").click(function(){
-            $("#ouma").hide();
-            $("#macharia").hide();
-            $("#ngugi").hide();
-            $("#wamboi").hide();
-            $("#anita").hide();
-            $("#lucy-bio").show();
-        
+    $("#more-anita").click(function () {
+        $("#anita-slider").show();
+        $("#ouma").hide();
+        $("#macharia").hide();
+        $("#ngugi").hide();
+        $("#wamboi").hide();
+        $("#anita").hide();
     })
-    });
-    $(document).ready(function(){
-        $("#anita").click(function(){
-            $("#ouma").hide();
-            $("#macharia").hide();
-            $("#ngugi").hide();
-            $("#wamboi").hide();
-            $("#anita").hide();
-            $("#anita-bio").show();
-        
-    })
-    });
-    
-    
-    
+});
+
+
