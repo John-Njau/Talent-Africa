@@ -6,25 +6,25 @@ body {
 }
 
 
-#detailsContainer{
+#detailsContainer {
   /* background-color: #595959; */
   box-shadow: 2px rgb(236, 236, 235);
-  
+
 }
 
 
-.column{
+.column {
   background-color: wheat;
   margin: 2%;
   border: 2px solid light rgb(0, 0, 0);
 }
 
-.btn{
+.btn {
   background-color: #692111;
   color: white;
   margin: 1%;
 }
 
-.img-fluid{
+.img-fluid {
   margin: 2%;
 }
