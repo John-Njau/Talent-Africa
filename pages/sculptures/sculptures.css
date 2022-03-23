@@ -1,0 +1,130 @@
+body {
+    background-color: #692111;
+    text-align: center;
+
+}
+
+h1 {
+    color: white;
+}
+
+hr {
+    color: grey;
+}
+
+/* .card-img-top{ */
+/* width: 255px; */
+/* height: 336px; */
+/* border-radius: 1%; */
+
+/* } */
+.col-md-4 {
+    /* width: 33%; */
+    float: left;
+    justify-items: center;
+}
+
+.col-md-6 {
+    float: left;
+    /* width: 50%; */
+    padding: 3rem;
+}
+
+.card {
+    box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(97, 25, 25);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+#tunu-slider,
+#sudi-slider,
+#husda-slider,
+#babu-slider,
+#ngurumo-slider {
+    display: none;
+}
+
+/* #sudi{
+    margin: auto;
+    height: 500px;
+    
+}
+#sudi2{
+    margin: auto;
+    height: 500px;
+}
+#sudi3{
+    margin: auto;
+    height: 500px;
+}
+#husda1{
+    margin: auto;
+    height: 500px;
+}
+#husda2{
+    margin: auto;
+    height: 500px;
+}
+#husda3{
+    margin: auto;
+    height: 500px;
+}
+#tunu1{
+    margin: auto;
+    height: 500px;
+}
+#tunu2{
+    margin: auto;
+    height: 500px;
+}
+#tunu3{
+    margin: auto;
+    height: 500px;
+}
+#babu1{
+    margin: auto;
+    height: 500px;
+}
+#babu2{
+    margin: auto;
+    height: 500px;
+}
+#babu3{
+    margin: auto;
+    height: 500px;
+}
+#ngurumo1{
+    margin: auto;
+    height: 500px; 
+}
+#ngurumo2{
+    margin: auto;
+    height: 500px; 
+}
+#ngurumo3{
+    margin: auto;
+    height: 500px; 
+} */
+.carousel-image {
+    margin: auto;
+}
+
+.artist-image {
+    border-radius: 50%;
+}
+
+.col-6 {
+    float: left;
+    padding-bottom: 30px;
+}
+
+.row4 {
+    padding: 30px;
+}
