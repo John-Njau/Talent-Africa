@@ -5,12 +5,26 @@ body {
   font-family: sans-serif;
 }
 
-.row{
-  background-color: #595959;
+
+#detailsContainer{
+  /* background-color: #595959; */
+  box-shadow: 2px rgb(236, 236, 235);
+  
 }
 
+
 .column{
-  background-color: #595959;;
-  box-shadow: 2px saddlebrown;
-  border: 2px solid light gray!important;
+  background-color: wheat;
+  margin: 2%;
+  border: 2px solid light rgb(0, 0, 0);
+}
+
+.btn{
+  background-color: #692111;
+  color: white;
+  margin: 1%;
+}
+
+.img-fluid{
+  margin: 2%;
 }
