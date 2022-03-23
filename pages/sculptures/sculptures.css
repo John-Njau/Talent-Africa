@@ -1,46 +1,35 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background: rgb(69, 21, 11);
-}
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.card{
-    background: rgb(255, 255, 255);
-    background-color: aqua ;
-    width: 300px;
-    /* height: 400px; */
-    margin: 10px;
-    border-radius: 15px 15px 0 0;
-}
-
-.card-image{
-    height: 120px;
-    margin-bottom: 15px;
-    background-size: cover;
-    /* max-width: 100%; */
-}
-
-.card h2{
-    padding: 10px;
-}
-
-.card p{
-    padding: 10px;
-}
-
-.card a{
-    background-color: blue;
-    color: aqua;
-    padding: 15px 20px;
-    display: block;
+    background-color: #692111;
     text-align: center;
-    margin: 20px 50px;
+    
 }
-
+h1{
+    color: white;
+}
+hr{
+    color: grey;
+}
+.card-img-top{
+    width: 255px;
+    height: 336px;
+    border-radius: 1%;
+    
+}
+ .col-md-4{
+   
+    width: 33%;
+    float: left;
+    justify-items: center;
+}
+.col-md-6{
+    float: left;
+    width: 50%;
+    padding: 3rem;
+} 
+.card{
+    box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
+  text-align: center;
+}
 .card:hover{
     background-color: rgb(97, 25, 25);
     color: aliceblue;
@@ -48,8 +37,74 @@ body{
     transform: scale(1.03);
     transition: all 1s ease;
 }
-.card-image-top{
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+ #sudi{
+    margin: auto;
+    height: 500px;
+    
 }
+#sudi2{
+    margin: auto;
+    height: 500px;
+}
+#sudi3{
+    margin: auto;
+    height: 500px;
+}
+#husda1{
+    margin: auto;
+    height: 500px;
+}
+#husda2{
+    margin: auto;
+    height: 500px;
+}
+#husda3{
+    margin: auto;
+    height: 500px;
+}
+#tunu1{
+    margin: auto;
+    height: 500px;
+}
+#tunu2{
+    margin: auto;
+    height: 500px;
+}
+#tunu3{
+    margin: auto;
+    height: 500px;
+}
+#babu1{
+    margin: auto;
+    height: 500px;
+}
+#babu2{
+    margin: auto;
+    height: 500px;
+}
+#babu3{
+    margin: auto;
+    height: 500px;
+}
+#ngurumo1{
+    margin: auto;
+    height: 500px; 
+}
+#ngurumo2{
+    margin: auto;
+    height: 500px; 
+}
+#ngurumo3{
+    margin: auto;
+    height: 500px; 
+}
+.artist-image{
+    border-radius: 50%;
+}
+ .col-6{
+    float: left;
+    padding-bottom: 30px;
+}
+.row4{
+    padding: 30px;
+} 

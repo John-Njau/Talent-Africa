@@ -1,34 +1,58 @@
-$('.nav ul li').click(function(){
-    $(this).addClass("active").siblings.removeClass("active");
+$(document).ready(function(){
+$("sudi").click(function(){
+    alert("yes");
+    $("sudi").hide();
+    $("husda").hide();
+    $("tunu").hide();
+    $("babu").hide();
+    $("ngurumo").hide();
+    $("sudi-bio").show();
 })
-
-
-
-const tabBtn = document.querySelectorAll('.nav ul li');
-const tab = document.querySelectorAll('tab');
-
-function tabs(panelIndex){
-    tab.forEach(function(node){
-        node.style.display = 'none';
+});
+$(document).ready(function(){
+$("husda").click(function(){
+    alert("yes");
+    $("sudi").hide();
+    $("husda").hide();
+    $("tunu").hide();
+    $("babu").hide();
+    $("ngurumo").hide();
+    $("husda-bio").show();
+})
+});
+$(document).ready(function(){
+$("tunu").click(function(){
+    alert("yes");
+    $("sudi").hide();
+    $("husda").hide();
+    $("tunu").hide();
+    $("babu").hide();
+    $("ngurumo").hide();
+    $("tunu-bio").show();
+    })
     });
-    tab[panelIndex].style.display = 'block';
-}
-tabs(0);
+$(document).ready(function(){
+$("babu").click(function(){
+    alert("yes");
+    $("sudi").hide();
+    $("husda").hide();
+    $("tunu").hide();
+    $("babu").hide();
+    $("ngurumo").hide();
+    $("babu-bio").show();
+})
+});
+$(document).ready(function(){
+$("ngurumo").click(function(){
+    alert("yes");
+    $("sudi").hide();
+    $("husda").hide();
+    $("tunu").hide();
+    $("babu").hide();
+    $("ngurumo").hide();
+    $("ngurumo-bio").show();
+})
+});
 
 
 
-
-let bio = document.querySelector('.bio');
-
-function bioText(){
-    bio.oldText = bio.innerText;
-    bio.innerText = bio.innerText.substring(0, 100) + "...";
-    bio.innerHTML += "&nbsp;" + <span onclick='addLength' id='see-more-bio'>See More</span>
-}
-bioText();
-
-function addLength(){
-    bio.innerHTML = bio.oldText;
-    io.innerHTML += "&nbsp;" + <span onclick='bioText' id='see-less-bio'>See Less</span>
-
-}
