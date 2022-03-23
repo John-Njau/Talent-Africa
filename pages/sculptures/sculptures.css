@@ -1,43 +1,57 @@
-body{
+body {
     background-color: #692111;
     text-align: center;
-    
+
 }
-h1{
+
+h1 {
     color: white;
 }
-hr{
+
+hr {
     color: grey;
 }
-.card-img-top{
-    width: 255px;
-    height: 336px;
-    border-radius: 1%;
-    
-}
- .col-md-4{
-   
-    width: 33%;
+
+/* .card-img-top{ */
+/* width: 255px; */
+/* height: 336px; */
+/* border-radius: 1%; */
+
+/* } */
+.col-md-4 {
+    /* width: 33%; */
     float: left;
     justify-items: center;
 }
-.col-md-6{
+
+.col-md-6 {
     float: left;
-    width: 50%;
+    /* width: 50%; */
     padding: 3rem;
-} 
-.card{
-    box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
-  text-align: center;
 }
-.card:hover{
+
+.card {
+    box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
+    text-align: center;
+}
+
+.card:hover {
     background-color: rgb(97, 25, 25);
     color: aliceblue;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
 }
- #sudi{
+
+#tunu-slider,
+#sudi-slider,
+#husda-slider,
+#babu-slider,
+#ngurumo-slider {
+    display: none;
+}
+
+/* #sudi{
     margin: auto;
     height: 500px;
     
@@ -97,14 +111,20 @@ hr{
 #ngurumo3{
     margin: auto;
     height: 500px; 
+} */
+.carousel-image {
+    margin: auto;
 }
-.artist-image{
+
+.artist-image {
     border-radius: 50%;
 }
- .col-6{
+
+.col-6 {
     float: left;
     padding-bottom: 30px;
 }
-.row4{
+
+.row4 {
     padding: 30px;
-} 
+}
