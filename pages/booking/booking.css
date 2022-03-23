@@ -1,18 +1,33 @@
-.firstName{
+body {
+    /* background-color: #692111; */
+    background-image: url("../booking/wallp.webp");
+    background-size: cover;
+    background-position: center;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.firstName {
     font-size: 25px;
     height: 45px;
     background-color: #A83A22;
     color: white;
 }
-.form-group{
+
+.form-group {
     background-color: #C4C4C4;
 }
-.homePage{
+
+.homePage {
     /* background-color: #A83A22; */
     color: white;
     /* font-size: 30px; */
 }
-.pics{
+
+.pics {
     width: 95%;
     height: 250px;
     /* border-radius: ; */
@@ -20,28 +35,24 @@
     background-size: cover;
     background-position: center;
 }
-body{
-    /* background-color: #692111; */
-    background-image: url("../booking/wallp.webp");
-    background-size: cover;
-    background-position: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.formHeight{
+
+.formHeight {
     height: 300px;
 }
-ol{
+
+ol {
     font-size: 25px;
 }
-.images{
+
+.images {
     height: 40px;
 }
 
-li>ul{
+li>ul {
     list-style: none;
     margin: 3%;
-  }
-  
-  .btn{
-      background-color: #A83A22;
-  }
+}
+
+.btn {
+    background-color: #A83A22;
+}
