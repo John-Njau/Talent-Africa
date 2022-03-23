@@ -1,4 +1,4 @@
- body{
+body{
     background-color: #692111;
     text-align: center;
     
@@ -10,8 +10,8 @@ hr{
     color: grey;
 }
 .card-img-top{
-    width: 255px;
-    height: 336px;
+    width: 100%;
+    height: 20rem;
     border-radius: 1%;
     
 }
@@ -22,82 +22,139 @@ hr{
     justify-items: center;
 }
 .col-md-6{
-    float: left;
+    /* float: left; */
     width: 50%;
     padding: 3rem;
 } 
 .card{
-    box-shadow: 0 5px 10px 0 rgba(141, 120, 120, 0.9);
+    box-shadow: 0 1rem 1rem 0 rgba(141, 120, 120, 0.9);
   text-align: center;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
 }
  #ouma1{
     margin: auto;
-    height: 500px;
+    height: 30rem;
     
 }
 #ouma2{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #ouma3{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #ngugi1{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #ngugi2{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #ngugi3{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #macharia1{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #macharia2{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #macharia3{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #lucy1{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #lucy2{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #lucy3{
     margin: auto;
-    height: 500px;
+    height: 30rem;
 }
 #anita1{
     margin: auto;
-    height: 500px; 
+    height: 30rem; 
 }
 #anita2{
     margin: auto;
-    height: 500px; 
+    height: 30rem; 
 }
 #anita3{
     margin: auto;
-    height: 500px; 
+    height: 30rem; 
 }
 .artist-image{
     border-radius: 50%;
 }
  .col-6{
     float: left;
-    padding-bottom: 30px;
+    padding: 2rem;
+}
+.row1{
+    padding: 2rem;
+    color: rgb(217, 217, 240);
+}
+.row2{
+    padding: 2rem;
+}
+.row3{
+    padding: 2rem;
 }
 .row4{
-    padding: 30px;
+    padding: 2rem;
+    display: none;
+}
+
+.row5{
+    padding: 2rem;
+    display: none;
+}
+.row6{
+    padding: 2rem;
+    display: none;
+}
+.row7{
+    padding: 2rem;
+    display: none;
 } 
+.row8{
+    padding: 2rem;
+    display: none;
+    
+}
+.col-6 h3{
+    color: rgb(217, 217, 240);
+}
+.col-6 h2{
+    color: rgb(217, 217, 240);
+}
+.buttons{
+   
+    background-color:rgb(217, 217, 240); /* grey */
+    border: none;
+    color: #692111;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+#slideImages1{
+    display: none;
+}
+#book-ouma{
+    display: none; 
+}
+#pages{
+justify-content: space-between;
+}
