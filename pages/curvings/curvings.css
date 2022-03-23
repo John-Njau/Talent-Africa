@@ -6,9 +6,12 @@ body {
 }
 
 
-#detailsContainer {
+#mutua-slider,
+#yusuf-slider,
+#olengidah-slider,
+#mwanzia-slider {
   /* background-color: #595959; */
-  
+  display: none;
 
 }
 
@@ -31,6 +34,6 @@ body {
   margin: 2%;
 }
 
-.carousel-image{
-  margin: auto ;
+.carousel-image {
+  margin: auto;
 }
