@@ -1,5 +1,13 @@
 body{
     background-color:#692111 ;
+    font-family: 'Lato', sans-serif;
+    
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+#ta{
+    font-family: 'Lobster', cursive;
+
 }
 
 ::placeholder{

@@ -10,7 +10,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="public/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,200&family=Lobster&family=Poppins:wght@200&family=Roboto:wght@100&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./public/css/style.css" />
+  <link rel="shortcut icon" href="./public/Assets/logoTA.jpeg" type="image/x-icon">
   <title>Talent Africa</title>
 </head>
 
@@ -19,7 +26,8 @@
   <!-- navbar class, lg-large with a dark bg and light color for text -->
   <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
     <div class="container-fluid">
-      <a href="#slideImages" class="navbar-brand text-dark">Talent <br />
+      <img class="" src="./public/Assets/logoTA-removebg-preview.png" width="100px" height="100px" alt="">
+      <a href="#slideImages" class="navbar-brand text-dark" id="ta">Talent <br />
         Africa</a>
       <!-- Adding a hamburger menu -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -108,21 +116,23 @@
             </p> <br>
           </div>
         </div>
-        <a href="../pages/sculptures/sculptures.html"><input type="button" class="servicesBtn btn btn-secondary mt-2" value="More Sculptures"></a>
+        <a href="../pages/sculptures/sculptures.html"><input type="button" class="servicesBtn btn btn-secondary mt-2"
+            value="More Sculptures"></a>
       </div>
     </div>
     <div class="text-center col-md">
-    <div class="box" id="boxTest">
-      <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid">
-      <div class="content">
-        <p class="lead pt-5">
-          Different Paintings sourced from the best uknown/ little known painters in
-          the rural settings. These painters will deliver your work to your specification.
-        </p> <br>
+      <div class="box" id="boxTest">
+        <img src="./public/Assets/WOOD CURVINGS.webp" alt="" class="img-fluid">
+        <div class="content">
+          <p class="lead pt-5">
+            Different Paintings sourced from the best uknown/ little known painters in
+            the rural settings. These painters will deliver your work to your specification.
+          </p> <br>
+        </div>
       </div>
+      <a href="../pages/curvings/curvings.html"><input type="button" value="More Curvings"
+          class="servicesBtn btn btn-secondary m-2"></a>
     </div>
-    <a href="../pages/curvings/curvings.html"><input type="button" value="More Curvings" class="servicesBtn btn btn-secondary m-2"></a>
-  </div>
   </section>
 
   <!-- subscribe section -->
@@ -165,7 +175,8 @@
           <textarea rows="10" cols="50" class="bg-transparent text-white container" id="comment" name="message"
             placeholder="Message &#42"></textarea>
           <br />
-          <input type="submit" value="Send Message" id="submitBtn" class="servicesBtn btn btn-secondary m-3 text-light" />
+          <input type="submit" value="Send Message" id="submitBtn"
+            class="servicesBtn btn btn-secondary m-3 text-light" />
         </div>
       </form>
     </div>
@@ -195,13 +206,13 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="js/script.js"></script>
 </body>
 
