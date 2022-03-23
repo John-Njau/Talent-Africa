@@ -8,9 +8,9 @@
     background-color: #C4C4C4;
 }
 .homePage{
-    background-color: #A83A22;
+    /* background-color: #A83A22; */
     color: white;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 .pics{
     width: 95%;
@@ -36,3 +36,12 @@ ol{
 .images{
     height: 40px;
 }
+
+li>ul{
+    list-style: none;
+    margin: 3%;
+  }
+  
+  .btn{
+      background-color: #A83A22;
+  }
