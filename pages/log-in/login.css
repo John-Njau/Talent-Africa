@@ -76,3 +76,11 @@ a {
 }
 
 
+.container{
+    background-color: rgb(217, 217, 240);
+    /* margin-right: 80%;
+    margin-left: 10%;
+    padding: 16px; */
+    /* margin-top: 10%; */
+    /* /* margin-bottom: 10%;} */
+}
