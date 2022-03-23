@@ -8,7 +8,7 @@ body {
 
 #detailsContainer {
   /* background-color: #595959; */
-  box-shadow: 2px rgb(236, 236, 235);
+  
 
 }
 
@@ -17,6 +17,8 @@ body {
   background-color: wheat;
   margin: 2%;
   border: 2px solid light rgb(0, 0, 0);
+  /* box-shadow: 5px 5px 5px rgb(85, 85, 80); */
+  border-radius: 1.5 rem;
 }
 
 .btn {
@@ -27,4 +29,8 @@ body {
 
 .img-fluid {
   margin: 2%;
+}
+
+.carousel-image{
+  margin: auto ;
 }
