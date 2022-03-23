@@ -5,7 +5,8 @@ Where Africa Builds Africa.
 Talent Africa
 
 # Project Description
-Afican Talents are a thing of beauty, but the worst part of it all is that the talents are underlooked. Each and every corner of the continent has different talents, from artwork to sculptures, everything is a piece of art, literally. Its amazing what other people can do, but why arent we in the global map?
+African Talents are a thing of beauty, but the worst part is that the talents are underlooked. The entire continent is full of different talents, ranging from artwork to sculptures, everysingle thing is a masterfiece, literally. It is amazing what other people can do, but why aren't we on the global map?
+<img src="public/Assets/WALL_ART-removebg-preview.png" alr="MAP OF AFRICA">
 
 ## Behaviour Driven Document
 The following are the user stories in this project:
@@ -44,11 +45,11 @@ This website's Design is created using Figma. This design can be found <a href="
 * Templates used to develop the above landing page were form cdnjs for the fonts, google fonts and icons too. 
 
 # Known Bugs
-At deployment, there was no bugs identified by the developer, If you encounter bugs while running the application, please reach out to the below authors
+At deployment, there was no bugs identified by the developer, If you encounter bugs while running the application, please reach out to the authors below 
 
 
 # Authors/Contributors
-* John Njau
+* John Njau 
 * Albright Sunguti
 * David Njagi
 * Jidraph Kimachia
