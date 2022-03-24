@@ -23,9 +23,7 @@ $(document).ready(function () {
 
 
 
-<<<<<<< HEAD
 
-=======
 // $(document).ready(function () {
 //   $("#submit").submit(function () {
 //     var firstnameInput = $("input#firstname").val();
@@ -92,4 +90,3 @@ function signup() {
     //     document.getElementById("signupForm").reset();
     // }
 }
->>>>>>> Development
