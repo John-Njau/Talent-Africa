@@ -34,8 +34,8 @@ $(document).ready(function () {
         $("#ngurumo").hide();
     })
     $("#more-ngurumo").click(function () {
-        $("#sudi-slider").show();
-        $("sudi").hide();
+        $("#ngurumo-slider").show();
+        $("#sudi").hide();
         $("#husda").hide();
         $("#tunu").hide();
         $("#babu").hide();

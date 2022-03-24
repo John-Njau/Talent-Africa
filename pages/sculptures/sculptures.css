@@ -12,17 +12,6 @@ hr {
     color: grey;
 }
 
-/* .card-img-top{ */
-/* width: 255px; */
-/* height: 336px; */
-/* border-radius: 1%; */
-
-/* } */
-.col-md-4 {
-    /* width: 33%; */
-    float: left;
-    justify-items: center;
-}
 
 .col-md-6 {
     float: left;
@@ -51,73 +40,8 @@ hr {
     display: none;
 }
 
-/* #sudi{
-    margin: auto;
-    height: 500px;
-    
-}
-#sudi2{
-    margin: auto;
-    height: 500px;
-}
-#sudi3{
-    margin: auto;
-    height: 500px;
-}
-#husda1{
-    margin: auto;
-    height: 500px;
-}
-#husda2{
-    margin: auto;
-    height: 500px;
-}
-#husda3{
-    margin: auto;
-    height: 500px;
-}
-#tunu1{
-    margin: auto;
-    height: 500px;
-}
-#tunu2{
-    margin: auto;
-    height: 500px;
-}
-#tunu3{
-    margin: auto;
-    height: 500px;
-}
-#babu1{
-    margin: auto;
-    height: 500px;
-}
-#babu2{
-    margin: auto;
-    height: 500px;
-}
-#babu3{
-    margin: auto;
-    height: 500px;
-}
-#ngurumo1{
-    margin: auto;
-    height: 500px; 
-}
-#ngurumo2{
-    margin: auto;
-    height: 500px; 
-}
-#ngurumo3{
-    margin: auto;
-    height: 500px; 
-} */
 .carousel-image {
     margin: auto;
-}
-
-.artist-image {
-    border-radius: 50%;
 }
 
 .col-6 {
