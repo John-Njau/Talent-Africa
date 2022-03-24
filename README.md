@@ -6,7 +6,7 @@ Talent Africa
 
 # Project Description
 African Talents are a thing of beauty, but the worst part is that the talents are underlooked. The entire continent is full of different talents, ranging from artwork to sculptures, everysingle thing is a masterfiece, literally. It is amazing what other people can do, but why aren't we on the global map?
-<img src="public/Assets/WALL_ART-removebg-preview.png" alr="MAP OF AFRICA">
+<img src="./public/Assets/Landing page.png" alr="MAP OF AFRICA">
 
 ## Behaviour Driven Document
 The following are the user stories in this project:

@@ -63,14 +63,6 @@ input[type="button"] {
   color: white;
   font-size: 18px;
 }
-.container{
-    background-color: rgb(217, 217, 240);
-    /* margin-right: 80%;
-    margin-left: 10%;
-    padding: 16px; */
-    /* margin-top: 10%; */
-    /* /* margin-bottom: 10%;} */
-}
 p {
   text-align: center;
   padding-top: 20px;
@@ -91,5 +83,3 @@ a {
   height: 30px;
   border-radius: 6px;
 }
-
-

@@ -1,0 +1,32 @@
+$().ready(function(){
+    $("#more-mutua").click(function(){
+        $("#mwanzia").hide();
+        $("#yusuf").hide();
+        $("#olengidah").hide();
+        $("#mutua-slider").show();
+        $("#mutua").hide();
+        $("#back-next").hide();
+        // alert("Mamhn")
+    });
+    $("#more-mwanzia").click(function(){
+        $("#mwanzia").hide();
+        $("#mutua").hide();
+        $("#yusuf").hide();
+        $("#olengidah").hide();
+        $("#mwanzia-slider").show();
+    });
+    $("#more-yusuf").click(function(){
+        $("#yusuf").hide();
+        $("#mwanzia").hide();
+        $("#mutua").hide();
+        $("#olengidah").hide();
+        $("#yusuf-slider").show();
+    });
+    $("#more-olengidah").click(function(){
+        $("#olengidah").hide();
+        $("#mutua").hide();
+        $("#yusuf").hide();
+        $("#mwanzia").hide();
+        $("#olengidah-slider").show();
+    });
+});
